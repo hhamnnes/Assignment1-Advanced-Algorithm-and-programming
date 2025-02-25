@@ -17,18 +17,27 @@ public class ExecutionTimeAnalyzerForFactorialRecursiveAlgorithm implements Exec
     @Override 
     public long[][] measureExecutionTime(int scopeStart, int scopeEnd, int interval) {
 
+
         numberOfSamples = (scopeEnd - scopeStart) / interval;
+
+        if (numberOfSamples % 2 != 0) numberOfSamples -= 1;
         
         long[][] executionTimes = new long[numberOfSamples][2];
 
-        for (int i = scopeStart; i < scopeEnd; i += interval) {
+        
+        // Warm-up phase
+        for (int i = 0; i < 1000; i++) {
+            FactorialAlgorithm.factorialRecursive(scopeStart);
+        }
+
+        for (int i = 0 , y = scopeStart; i < numberOfSamples; i++ , y += interval) {
 
             startTime = System.nanoTime();
-            FactorialAlgorithm.factorialRecursive(i);
+            FactorialAlgorithm.factorialRecursive(y);
             stopTime = System.nanoTime();
 
             executionTime = stopTime - startTime;
-            executionTimes[i][0] = i;
+            executionTimes[i][0] = y;
             executionTimes[i][1] = executionTime;
 
         }

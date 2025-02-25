@@ -1,4 +1,4 @@
-package isep.elve.hamnnes;
+package isep.eleve.hamnnes;
 
 public class Main {
     public static void main(String[] args) {

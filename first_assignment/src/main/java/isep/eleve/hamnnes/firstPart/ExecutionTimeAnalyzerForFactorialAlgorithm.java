@@ -31,8 +31,7 @@ public class ExecutionTimeAnalyzerForFactorialAlgorithm implements ExecutionTime
         
         Object[][] executionTimes = new Object[numberOfSamples][3];
 
-        
-        // Warm-up phase
+    
         for (int i = 0; i < 1000; i++) {
             factorialAlgorithm.factorialCalculation(scopeStart);
         }

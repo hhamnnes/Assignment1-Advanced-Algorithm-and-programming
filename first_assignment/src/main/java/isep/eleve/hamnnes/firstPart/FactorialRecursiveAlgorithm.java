@@ -11,8 +11,6 @@ public class FactorialRecursiveAlgorithm implements FactorialAlgorithm{
     
     @Override
     public BigInteger factorialCalculation(int n) {
-
-
         if (n == 0) return BigInteger.ONE;
         else return BigInteger.valueOf(n).multiply(factorialCalculation(n-1));
     }

@@ -3,6 +3,7 @@ package isep.eleve.hamnnes;
 import isep.eleve.hamnnes.firstPart.ExecutionTimeAnalyzerForFactorialAlgorithm;
 import isep.eleve.hamnnes.firstPart.FactorialRecursiveAlgorithm;
 import isep.eleve.hamnnes.firstPart.FactorialIterativeAlgorithm;
+import isep.eleve.hamnnes.firstPart.JsonFileWriterExecutionTimeData;
 public class Main {
     public static void main(String[] args) {
 
@@ -11,23 +12,15 @@ public class Main {
         ExecutionTimeAnalyzerForFactorialAlgorithm executionTimeAnalyzerForFactorialAlgorithm 
         = new ExecutionTimeAnalyzerForFactorialAlgorithm();
 
-        executionTimes = executionTimeAnalyzerForFactorialAlgorithm.measureExecutionTime(0, 100, 2,
+        executionTimes = executionTimeAnalyzerForFactorialAlgorithm.measureExecutionTime(0, 100, 10,
                                                                                          new FactorialRecursiveAlgorithm());
+        JsonFileWriterExecutionTimeData.writeToFile(executionTimes, ".json");
 
-        for(int i = 0; i < 50; i++){
-            System.err.println(executionTimes[i][0] 
-            + " and " + executionTimes[i][1] 
-            + " and " + executionTimes[i][2]);
-        }
-
-        executionTimes = executionTimeAnalyzerForFactorialAlgorithm.measureExecutionTime(0, 100, 2,
+        
+        executionTimes = executionTimeAnalyzerForFactorialAlgorithm.measureExecutionTime(0, 100, 10,
                                                                                          new FactorialIterativeAlgorithm());
 
-        for(int i = 0; i < 50; i++){
-            System.err.println(executionTimes[i][0] 
-            + " and " + executionTimes[i][1] 
-            + " and " + executionTimes[i][2]);
-        }
+
 
 
     }

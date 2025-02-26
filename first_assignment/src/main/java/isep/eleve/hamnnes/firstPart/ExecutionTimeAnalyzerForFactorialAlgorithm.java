@@ -54,8 +54,6 @@ public class ExecutionTimeAnalyzerForFactorialAlgorithm implements ExecutionTime
             }
 
             executionTime = executionTime / 10;
-
-
             
             executionTimes[i][0] = y;
             executionTimes[i][1] = executionTime;

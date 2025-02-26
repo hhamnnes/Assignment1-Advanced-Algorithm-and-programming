@@ -14,13 +14,13 @@ public class FactorialIterativeAlgorithm implements FactorialAlgorithm{
 
 
     @Override
-    public  BigInteger factorialCalculation(int n) {
-        for(int i = n - 1; i > 0; --i) {
+    public BigInteger factorialCalculation(int n) {
+        BigInteger factorialResult = BigInteger.ONE; 
 
-            factorialResult = BigInteger.valueOf(n);
+        for (int i = n; i > 0; --i) {
             factorialResult = factorialResult.multiply(BigInteger.valueOf(i));
         }
-    
+
         return factorialResult;
     }
     

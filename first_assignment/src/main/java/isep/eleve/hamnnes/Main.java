@@ -12,12 +12,12 @@ public class Main {
         ExecutionTimeAnalyzerForFactorialAlgorithm executionTimeAnalyzerForFactorialAlgorithm 
         = new ExecutionTimeAnalyzerForFactorialAlgorithm();
 
-        executionTimes = executionTimeAnalyzerForFactorialAlgorithm.measureExecutionTime(0, 100, 10,
+        executionTimes = executionTimeAnalyzerForFactorialAlgorithm.measureExecutionTime(0, 500, 50,
                                                                                          new FactorialRecursiveAlgorithm());
         JsonFileWriterExecutionTimeData.writeToFile(executionTimes, "RecursiveAlgorithmExecutionTimeData.json");
 
 
-        executionTimes = executionTimeAnalyzerForFactorialAlgorithm.measureExecutionTime(0, 100, 10,
+        executionTimes = executionTimeAnalyzerForFactorialAlgorithm.measureExecutionTime(0, 500, 50,
                                                                                          new FactorialIterativeAlgorithm());
         JsonFileWriterExecutionTimeData.writeToFile(executionTimes, "IterativeAlgorithmExecutionTimeData.json");
 

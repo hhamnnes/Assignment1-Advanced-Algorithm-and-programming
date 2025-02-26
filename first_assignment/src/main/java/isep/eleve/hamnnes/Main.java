@@ -1,18 +1,22 @@
 package isep.eleve.hamnnes;
 
-import isep.eleve.hamnnes.firstPart.ExecutionTimeAnalyzerForFactorialRecursiveAlgorithm;
+import isep.eleve.hamnnes.firstPart.ExecutionTimeAnalyzerForFactorialAlgorithm;
+import isep.eleve.hamnnes.firstPart.FactorialRecursiveAlgorithm;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
 
         long[][] executionTimes;
 
-        ExecutionTimeAnalyzerForFactorialRecursiveAlgorithm executionTimeAnalyzerForFactorialRecursiveAlgorithm = new ExecutionTimeAnalyzerForFactorialRecursiveAlgorithm();
+        ExecutionTimeAnalyzerForFactorialAlgorithm executionTimeAnalyzerForFactorialAlgorithm = new ExecutionTimeAnalyzerForFactorialAlgorithm();
 
-        executionTimes = executionTimeAnalyzerForFactorialRecursiveAlgorithm.measureExecutionTime(0, 10, 1);
+        executionTimes = executionTimeAnalyzerForFactorialAlgorithm.measureExecutionTime(0, 100, 2,
+                                                                                         new FactorialRecursiveAlgorithm());
 
-        for(int i = 0; i < 10; i++){
-            System.err.println(executionTimes[i][0] + " and " + executionTimes[i][1]);
+        for(int i = 0; i < 50; i++){
+            System.err.println(executionTimes[i][0] 
+            + " and " + executionTimes[i][1] 
+            + " and " + executionTimes[i][2]);
         }
 
 

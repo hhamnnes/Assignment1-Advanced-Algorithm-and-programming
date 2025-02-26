@@ -1,7 +1,7 @@
 package isep.eleve.hamnnes.interfaces;
 
-public interface ExecutionTimeAnalyzer {
+public interface ExecutionTimeAnalyzer<T> {
 
-    long[][] measureExecutionTime(int scopeStart, int scopeEnd, int interval);
+    Object[][] measureExecutionTime(int scopeStart, int scopeEnd, int interval, T algorithm);
     
 }

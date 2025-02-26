@@ -12,6 +12,7 @@ public class ExecutionTimeAnalyzerForFactorialAlgorithm implements ExecutionTime
     private long startTime;
     private long stopTime;
     private BigInteger factorialResult;
+    private long[] sampleExecutionTime = new long[50];
 
     public ExecutionTimeAnalyzerForFactorialAlgorithm() {
 
@@ -28,7 +29,7 @@ public class ExecutionTimeAnalyzerForFactorialAlgorithm implements ExecutionTime
 
         if (numberOfSamples % 2 != 0) numberOfSamples -= 1;
         
-        long[][] executionTimes = new long[numberOfSamples][3];
+        Object[][] executionTimes = new Object[numberOfSamples][3];
 
         
         // Warm-up phase
@@ -38,11 +39,25 @@ public class ExecutionTimeAnalyzerForFactorialAlgorithm implements ExecutionTime
 
         for (int i = 0 , y = scopeStart; i < numberOfSamples; i++ , y += interval) {
 
-            startTime = System.nanoTime();
-            factorialResult = factorialAlgorithm.factorialCalculation(y);
-            stopTime = System.nanoTime();
+            for(int z = 0; z < 50; z++) {
+                startTime = System.nanoTime();
+                factorialResult = factorialAlgorithm.factorialCalculation(y);
+                stopTime = System.nanoTime();
 
-            executionTime = stopTime - startTime;
+                executionTime = stopTime - startTime;
+                sampleExecutionTime[z] =  executionTime;
+            }
+
+            executionTime = 0;
+
+            for(int z = 0; z < 50; z++) {
+                executionTime += sampleExecutionTime[z];
+            }
+
+            executionTime = executionTime / 10;
+
+
+            
             executionTimes[i][0] = y;
             executionTimes[i][1] = executionTime;
             executionTimes[i][2] = factorialResult;

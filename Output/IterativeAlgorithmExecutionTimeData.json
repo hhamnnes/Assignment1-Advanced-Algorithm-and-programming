@@ -1,52 +1,52 @@
 [
     {
      "Number": 0,
-     "ExecutionTime": 490,
+     "ExecutionTime": 510,
      "FactorialResult": 1
     },
     {
      "Number": 10,
-     "ExecutionTime": 30810,
+     "ExecutionTime": 10640,
      "FactorialResult": 3628800
     },
     {
      "Number": 20,
-     "ExecutionTime": 52610,
+     "ExecutionTime": 10820,
      "FactorialResult": 2432902008176640000
     },
     {
      "Number": 30,
-     "ExecutionTime": 50330,
+     "ExecutionTime": 14950,
      "FactorialResult": 265252859812191058636308480000000
     },
     {
      "Number": 40,
-     "ExecutionTime": 43670,
+     "ExecutionTime": 19680,
      "FactorialResult": 815915283247897734345611269596115894272000000000
     },
     {
      "Number": 50,
-     "ExecutionTime": 41630,
+     "ExecutionTime": 26650,
      "FactorialResult": 30414093201713378043612608166064768844377641568960512000000000000
     },
     {
      "Number": 60,
-     "ExecutionTime": 23870,
+     "ExecutionTime": 34010,
      "FactorialResult": 8320987112741390144276341183223364380754172606361245952449277696409600000000000000
     },
     {
      "Number": 70,
-     "ExecutionTime": 27840,
+     "ExecutionTime": 39850,
      "FactorialResult": 11978571669969891796072783721689098736458938142546425857555362864628009582789845319680000000000000000
     },
     {
      "Number": 80,
-     "ExecutionTime": 32220,
+     "ExecutionTime": 66250,
      "FactorialResult": 71569457046263802294811533723186532165584657342365752577109445058227039255480148842668944867280814080000000000000000000
     },
     {
      "Number": 90,
-     "ExecutionTime": 37730,
+     "ExecutionTime": 112910,
      "FactorialResult": 1485715964481761497309522733620825737885569961284688766942216863704985393094065876545992131370884059645617234469978112000000000000000000000
     }
 ]

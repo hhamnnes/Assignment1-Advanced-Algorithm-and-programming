@@ -1,6 +1,6 @@
 package isep.eleve.hamnnes.interfaces;
 
-public interface StringReversalAlgorithm extends Algorithm<String> {
+public interface StringReversalAlgorithm {
 
     String reverse(String s);
     

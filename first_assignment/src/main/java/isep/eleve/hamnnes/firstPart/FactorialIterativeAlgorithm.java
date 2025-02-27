@@ -14,7 +14,7 @@ public class FactorialIterativeAlgorithm implements FactorialAlgorithm{
 
 
     @Override
-    public BigInteger factorialCalculation(int n) {
+    public BigInteger calculate(int n) {
         BigInteger factorialResult = BigInteger.ONE; 
 
         for (int i = n; i > 0; --i) {

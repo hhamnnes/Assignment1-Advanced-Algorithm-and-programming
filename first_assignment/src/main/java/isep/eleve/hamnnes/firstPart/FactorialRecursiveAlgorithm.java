@@ -10,9 +10,9 @@ public class FactorialRecursiveAlgorithm implements FactorialAlgorithm{
     }
     
     @Override
-    public BigInteger factorialCalculation(int n) {
+    public BigInteger calculate(int n) {
         if (n == 0) return BigInteger.ONE;
-        else return BigInteger.valueOf(n).multiply(factorialCalculation(n-1));
+        else return BigInteger.valueOf(n).multiply(calculate(n-1));
     }
     
    

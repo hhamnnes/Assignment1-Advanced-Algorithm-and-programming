@@ -2,9 +2,9 @@ package isep.eleve.hamnnes.interfaces;
 
 import java.math.BigInteger;
 
-public interface FactorialAlgorithm {
+public interface FactorialAlgorithm extends Algorithm<BigInteger> {
 
-    BigInteger factorialCalculation(int n);
+    BigInteger calculate(int n);
     
 
 }

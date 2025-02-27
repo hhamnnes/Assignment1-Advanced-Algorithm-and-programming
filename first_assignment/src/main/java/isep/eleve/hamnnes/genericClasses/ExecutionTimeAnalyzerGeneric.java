@@ -29,7 +29,7 @@ public class ExecutionTimeAnalyzerGeneric<T> implements ExecutionTimeAnalyzer<Al
         Object[][] executionTimes = new Object[numberOfSamples][3];
 
     
-        for (int i = 0; i < 1000; i++) {
+        for (int i = 0; i < 10; i++) {
             algorithm.calculate(i);
         }
 

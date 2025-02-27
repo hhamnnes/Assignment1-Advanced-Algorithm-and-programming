@@ -1,0 +1,152 @@
+[
+    {
+     "Number": 0,
+     "ExecutionTime": 13279,
+     "FactorialResult": 0
+    },
+    {
+     "Number": 1,
+     "ExecutionTime": 7230,
+     "FactorialResult": 1
+    },
+    {
+     "Number": 2,
+     "ExecutionTime": 4030,
+     "FactorialResult": 1
+    },
+    {
+     "Number": 3,
+     "ExecutionTime": 6080,
+     "FactorialResult": 2
+    },
+    {
+     "Number": 4,
+     "ExecutionTime": 6180,
+     "FactorialResult": 3
+    },
+    {
+     "Number": 5,
+     "ExecutionTime": 6290,
+     "FactorialResult": 5
+    },
+    {
+     "Number": 6,
+     "ExecutionTime": 19070,
+     "FactorialResult": 8
+    },
+    {
+     "Number": 7,
+     "ExecutionTime": 27770,
+     "FactorialResult": 13
+    },
+    {
+     "Number": 8,
+     "ExecutionTime": 37280,
+     "FactorialResult": 21
+    },
+    {
+     "Number": 9,
+     "ExecutionTime": 43050,
+     "FactorialResult": 34
+    },
+    {
+     "Number": 10,
+     "ExecutionTime": 62700,
+     "FactorialResult": 55
+    },
+    {
+     "Number": 11,
+     "ExecutionTime": 149410,
+     "FactorialResult": 89
+    },
+    {
+     "Number": 12,
+     "ExecutionTime": 261740,
+     "FactorialResult": 144
+    },
+    {
+     "Number": 13,
+     "ExecutionTime": 382569,
+     "FactorialResult": 233
+    },
+    {
+     "Number": 14,
+     "ExecutionTime": 555530,
+     "FactorialResult": 377
+    },
+    {
+     "Number": 15,
+     "ExecutionTime": 701960,
+     "FactorialResult": 610
+    },
+    {
+     "Number": 16,
+     "ExecutionTime": 602570,
+     "FactorialResult": 987
+    },
+    {
+     "Number": 17,
+     "ExecutionTime": 474810,
+     "FactorialResult": 1597
+    },
+    {
+     "Number": 18,
+     "ExecutionTime": 603290,
+     "FactorialResult": 2584
+    },
+    {
+     "Number": 19,
+     "ExecutionTime": 1200990,
+     "FactorialResult": 4181
+    },
+    {
+     "Number": 20,
+     "ExecutionTime": 1594340,
+     "FactorialResult": 6765
+    },
+    {
+     "Number": 21,
+     "ExecutionTime": 2724820,
+     "FactorialResult": 10946
+    },
+    {
+     "Number": 22,
+     "ExecutionTime": 4545320,
+     "FactorialResult": 17711
+    },
+    {
+     "Number": 23,
+     "ExecutionTime": 7330809,
+     "FactorialResult": 28657
+    },
+    {
+     "Number": 24,
+     "ExecutionTime": 13882519,
+     "FactorialResult": 46368
+    },
+    {
+     "Number": 25,
+     "ExecutionTime": 19160940,
+     "FactorialResult": 75025
+    },
+    {
+     "Number": 26,
+     "ExecutionTime": 31098220,
+     "FactorialResult": 121393
+    },
+    {
+     "Number": 27,
+     "ExecutionTime": 46680949,
+     "FactorialResult": 196418
+    },
+    {
+     "Number": 28,
+     "ExecutionTime": 74435889,
+     "FactorialResult": 317811
+    },
+    {
+     "Number": 29,
+     "ExecutionTime": 123734040,
+     "FactorialResult": 514229
+    }
+]

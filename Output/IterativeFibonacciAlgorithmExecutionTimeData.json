@@ -1,0 +1,152 @@
+[
+    {
+     "Number": 0,
+     "ExecutionTime": 10650,
+     "FactorialResult": 0
+    },
+    {
+     "Number": 1,
+     "ExecutionTime": 8380,
+     "FactorialResult": 1
+    },
+    {
+     "Number": 2,
+     "ExecutionTime": 18870,
+     "FactorialResult": 1
+    },
+    {
+     "Number": 3,
+     "ExecutionTime": 10460,
+     "FactorialResult": 2
+    },
+    {
+     "Number": 4,
+     "ExecutionTime": 14270,
+     "FactorialResult": 3
+    },
+    {
+     "Number": 5,
+     "ExecutionTime": 18650,
+     "FactorialResult": 5
+    },
+    {
+     "Number": 6,
+     "ExecutionTime": 18520,
+     "FactorialResult": 8
+    },
+    {
+     "Number": 7,
+     "ExecutionTime": 19229,
+     "FactorialResult": 13
+    },
+    {
+     "Number": 8,
+     "ExecutionTime": 19810,
+     "FactorialResult": 21
+    },
+    {
+     "Number": 9,
+     "ExecutionTime": 15260,
+     "FactorialResult": 34
+    },
+    {
+     "Number": 10,
+     "ExecutionTime": 14649,
+     "FactorialResult": 55
+    },
+    {
+     "Number": 11,
+     "ExecutionTime": 15510,
+     "FactorialResult": 89
+    },
+    {
+     "Number": 12,
+     "ExecutionTime": 16080,
+     "FactorialResult": 144
+    },
+    {
+     "Number": 13,
+     "ExecutionTime": 16100,
+     "FactorialResult": 233
+    },
+    {
+     "Number": 14,
+     "ExecutionTime": 17770,
+     "FactorialResult": 377
+    },
+    {
+     "Number": 15,
+     "ExecutionTime": 23850,
+     "FactorialResult": 610
+    },
+    {
+     "Number": 16,
+     "ExecutionTime": 32880,
+     "FactorialResult": 987
+    },
+    {
+     "Number": 17,
+     "ExecutionTime": 31600,
+     "FactorialResult": 1597
+    },
+    {
+     "Number": 18,
+     "ExecutionTime": 22930,
+     "FactorialResult": 2584
+    },
+    {
+     "Number": 19,
+     "ExecutionTime": 31310,
+     "FactorialResult": 4181
+    },
+    {
+     "Number": 20,
+     "ExecutionTime": 27370,
+     "FactorialResult": 6765
+    },
+    {
+     "Number": 21,
+     "ExecutionTime": 32340,
+     "FactorialResult": 10946
+    },
+    {
+     "Number": 22,
+     "ExecutionTime": 19420,
+     "FactorialResult": 17711
+    },
+    {
+     "Number": 23,
+     "ExecutionTime": 28860,
+     "FactorialResult": 28657
+    },
+    {
+     "Number": 24,
+     "ExecutionTime": 33400,
+     "FactorialResult": 46368
+    },
+    {
+     "Number": 25,
+     "ExecutionTime": 36889,
+     "FactorialResult": 75025
+    },
+    {
+     "Number": 26,
+     "ExecutionTime": 32370,
+     "FactorialResult": 121393
+    },
+    {
+     "Number": 27,
+     "ExecutionTime": 26810,
+     "FactorialResult": 196418
+    },
+    {
+     "Number": 28,
+     "ExecutionTime": 30400,
+     "FactorialResult": 317811
+    },
+    {
+     "Number": 29,
+     "ExecutionTime": 39690,
+     "FactorialResult": 514229
+    }
+]

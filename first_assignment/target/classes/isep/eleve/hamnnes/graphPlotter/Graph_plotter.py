@@ -34,5 +34,16 @@ file_paths = [
     r"X:\Onedrive\Dokumenter\Høgskolen i Østfold\4.Semster\II.2415 Advanced Algorithmic & Programming\Assignments\Assignment 1 v2\Output\IterativeAlgorithmExecutionTimeData.json"
 ]
 plotter = Graph_plotter(file_paths)
+
+plotter.read_json_data()
+plotter.create_graph()
+
+file_paths = [
+    r"X:\Onedrive\Dokumenter\Høgskolen i Østfold\4.Semster\II.2415 Advanced Algorithmic & Programming\Assignments\Assignment 1 v2\Output\RecursiveFibonacciAlgorithmExecutionTimeData.json",
+    r"X:\Onedrive\Dokumenter\Høgskolen i Østfold\4.Semster\II.2415 Advanced Algorithmic & Programming\Assignments\Assignment 1 v2\Output\IterativeFibonacciAlgorithmExecutionTimeData.json"
+]
+
+plotter = Graph_plotter(file_paths)
+
 plotter.read_json_data()
 plotter.create_graph()

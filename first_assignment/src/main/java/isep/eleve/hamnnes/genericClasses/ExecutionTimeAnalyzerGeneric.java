@@ -54,6 +54,17 @@ public class ExecutionTimeAnalyzerGeneric<T> implements ExecutionTimeAnalyzer<Al
 
             executionTime = executionTime /10;
 
+
+
+            //Code without looping for average.
+            /*
+             * startTime = System.nanoTime();
+             * calculationResult = algorithm.calculate(y);
+             * stopTime = System.nanoTime();
+             * executionTime = stopTime - startTime;
+             */
+            
+
             System.out.println(executionTime);
             
             executionTimes[i][0] = y;

@@ -5,6 +5,9 @@ import isep.eleve.hamnnes.interfaces.FibonacciAlgorithm;
 
 /* 
 public class ExecutionTimeAnalyzerForFibonacciAlgorithm implements ExecutionTimeAnalyzer<FibonacciAlgorithm>{
-    return null;
+    
+    public ExecutionTimeAnalyzerForFibonacciAlgorithm() {
+        super();
+    }
 }
 */

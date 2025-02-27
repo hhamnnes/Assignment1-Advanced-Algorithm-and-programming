@@ -9,7 +9,7 @@ public class ExecutionTimeAnalyzerGeneric<T> implements ExecutionTimeAnalyzer<Al
     private long startTime;
     private long stopTime; 
     private T calculationResult;
-    private long[] sampleExecutionTime = new long[10];
+    //private long[] sampleExecutionTime = new long[10];
 
     public ExecutionTimeAnalyzerGeneric() {
 
@@ -33,8 +33,9 @@ public class ExecutionTimeAnalyzerGeneric<T> implements ExecutionTimeAnalyzer<Al
             algorithm.calculate(i);
         }
 
+         
         for (int i = 0 , y = scopeStart; i < numberOfSamples; i++ , y += interval) {
-
+            /*
             for(int z = 0; z < 10; z++) {
                 startTime = System.nanoTime();
                 for(int a = 0; a < 100; a++) {
@@ -53,16 +54,16 @@ public class ExecutionTimeAnalyzerGeneric<T> implements ExecutionTimeAnalyzer<Al
             }
 
             executionTime = executionTime /10;
-
+            */  
 
 
             //Code without looping for average.
-            /*
-             * startTime = System.nanoTime();
-             * calculationResult = algorithm.calculate(y);
-             * stopTime = System.nanoTime();
-             * executionTime = stopTime - startTime;
-             */
+            
+            startTime = System.nanoTime();
+            calculationResult = algorithm.calculate(y);
+            stopTime = System.nanoTime();
+            executionTime = stopTime - startTime;
+             
             
 
             System.out.println(executionTime);

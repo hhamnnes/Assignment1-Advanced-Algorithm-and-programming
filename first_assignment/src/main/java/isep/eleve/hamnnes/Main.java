@@ -31,11 +31,11 @@ public class Main {
         ExecutionTimeAnalyzerForFibonacciAlgorithm executionTimeAnalyzerForFibonacciAlgorithm 
         = new ExecutionTimeAnalyzerForFibonacciAlgorithm();
 
-        executionTimes = executionTimeAnalyzerForFibonacciAlgorithm.measureExecutionTime(0, 30, 1,
+        executionTimes = executionTimeAnalyzerForFibonacciAlgorithm.measureExecutionTime(0, 50, 1,
                                                                                          new RecursiveFib());
         JsonFileWriterExecutionTimeData.writeToFile(executionTimes, "RecursiveFibonacciAlgorithmExecutionTimeData.json");                                                                                 
 
-        executionTimes = executionTimeAnalyzerForFibonacciAlgorithm.measureExecutionTime(0, 30, 1,
+        executionTimes = executionTimeAnalyzerForFibonacciAlgorithm.measureExecutionTime(0, 50, 1,
                                                                                          new IterativeFib());
 
         JsonFileWriterExecutionTimeData.writeToFile(executionTimes, "IterativeFibonacciAlgorithmExecutionTimeData.json");  

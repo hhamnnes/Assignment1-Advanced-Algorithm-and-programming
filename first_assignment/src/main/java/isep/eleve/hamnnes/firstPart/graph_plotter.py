@@ -1,24 +1,38 @@
 import json
 import matplotlib.pyplot as plt
 import os
+import sys
 
-file_path = r"X:\Onedrive\Dokumenter\Høgskolen i Østfold\4.Semster\II.2415 Advanced Algorithmic & Programming\Assignments\Assignment 1 v2\Output\IterativeAlgorithmExecutionTimeData.json"
+sys.set_int_max_str_digits(100000)
+class Graph_plotter:
+    def __init__(self, file_paths):
+        self.file_paths = file_paths
+        self.data = []
 
-# Les JSON-data fra filen
-with open(file_path, 'r') as file:
-    data = json.load(file)
+    def read_json_data(self):
+        for file_path in self.file_paths:
+            with open(file_path, 'r') as file:
+                self.data.append(json.load(file))
 
-# Ekstraher data for plotting
-numbers = [entry["Number"] for entry in data]
-execution_times = [entry["ExecutionTime"] for entry in data]
 
-# Lag en graf
-plt.plot(numbers, execution_times, marker='o')
+    def create_graph(self):
+        for data in self.data:
+            numbers = [entry["Number"] for entry in data]
+            execution_times = [entry["ExecutionTime"] for entry in data]
 
-# Legg til tittel og etiketter
-plt.title('Execution Time vs Number')
-plt.xlabel('Number')
-plt.ylabel('Execution Time (ns)')
+            plt.plot(numbers, execution_times, marker='o')
 
-# Vis grafen
-plt.show()
+        plt.title('Execution Time vs Number')
+        plt.xlabel('Number')
+        plt.ylabel('Execution Time (ns)')
+        plt.legend([os.path.basename(fp) for fp in self.file_paths], loc="upper left")
+        plt.show()
+
+
+file_paths = [
+    r"X:\Onedrive\Dokumenter\Høgskolen i Østfold\4.Semster\II.2415 Advanced Algorithmic & Programming\Assignments\Assignment 1 v2\Output\RecursiveAlgorithmExecutionTimeData.json",
+    r"X:\Onedrive\Dokumenter\Høgskolen i Østfold\4.Semster\II.2415 Advanced Algorithmic & Programming\Assignments\Assignment 1 v2\Output\IterativeAlgorithmExecutionTimeData.json"
+]
+plotter = Graph_plotter(file_paths)
+plotter.read_json_data()
+plotter.create_graph()

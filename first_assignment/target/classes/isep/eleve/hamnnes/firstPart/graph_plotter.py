@@ -2,6 +2,9 @@ import json
 import matplotlib.pyplot as plt
 import os
 
+class Graph_plotter:
+    def __init__(self, filepath):
+
 file_path = r"X:\Onedrive\Dokumenter\Høgskolen i Østfold\4.Semster\II.2415 Advanced Algorithmic & Programming\Assignments\Assignment 1 v2\Output\IterativeAlgorithmExecutionTimeData.json"
 
 # Les JSON-data fra filen

@@ -4,29 +4,42 @@ import isep.eleve.hamnnes.interfaces.StringReversalAlgorithm;
 
 public class IterativeStringReversal implements StringReversalAlgorithm {
 
-    String partA = "";
-    String partB = "";
-    String left = "";
-    String right = "";
-
+    private char b;
+    private char a;
+    private char[] charArray;
+    private String result;
     @Override
     public String reverse(String s) {
 
-        for(int i = 0, y = s.length(); i == y; i++, y--) {
-            partA = s.substring(i,i + 1);
-            partB = s.substring(y,y - 1);
+        result = "";
 
-            right += partA;
-            left += partB;
+        charArray = s.toCharArray();
 
-            System.out.print(right);
-            System.out.print(left);
-            System.out.print(partA);
-            System.out.print(partB);
+
+
+        for(int i = 0, y = s.length() - 1; i != y; i++, y--) {
+
+            a = charArray[i];
+            b = charArray[y];
+
+            System.out.println("a: " + a);
+            System.out.println("b: " + b);
+
+            charArray[y] = a;
+            charArray[i] = b;
+            
+            
 
         }
 
-        return right + left;
+        for(int i = 0; i < s.length(); i++){
+            result += charArray[i];
+        }
+
+
+        return result;
+
+
     }
     
 }

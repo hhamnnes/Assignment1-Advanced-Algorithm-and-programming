@@ -3,7 +3,7 @@ package isep.eleve.hamnnes.genericClasses;
 import isep.eleve.hamnnes.interfaces.ExecutionTimeAnalyzer;
 import isep.eleve.hamnnes.interfaces.Algorithm;
 
-public class ExecutionTimeAnalyzerGeneric<T> implements ExecutionTimeAnalyzer<Algorithm<T>> {
+public class ExecutionTimeAnalyzerGenericForNumericAlgorithms<T> implements ExecutionTimeAnalyzer<Algorithm<T>> {
     private int numberOfSamples;
     private long executionTime;
     private long startTime;
@@ -11,7 +11,7 @@ public class ExecutionTimeAnalyzerGeneric<T> implements ExecutionTimeAnalyzer<Al
     private T calculationResult;
     //private long[] sampleExecutionTime = new long[10];
 
-    public ExecutionTimeAnalyzerGeneric() {
+    public ExecutionTimeAnalyzerGenericForNumericAlgorithms() {
 
     }
 

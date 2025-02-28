@@ -2,7 +2,7 @@ package isep.eleve.hamnnes.thirdPart;
 
 import isep.eleve.hamnnes.interfaces.StringReversalAlgorithm;
 
-public class IterativeStringReversal implements StringReversalAlgorithm {
+public class IterativeStringReversal implements StringReversalAlgorithm<String> {
 
     private char b;
     private char a;
@@ -17,13 +17,10 @@ public class IterativeStringReversal implements StringReversalAlgorithm {
 
 
 
-        for(int i = 0, y = s.length() - 1; i != y; i++, y--) {
+        for(int i = 0, y = s.length() - 1; i <= y; i++, y--) {
 
             a = charArray[i];
             b = charArray[y];
-
-            System.out.println("a: " + a);
-            System.out.println("b: " + b);
 
             charArray[y] = a;
             charArray[i] = b;

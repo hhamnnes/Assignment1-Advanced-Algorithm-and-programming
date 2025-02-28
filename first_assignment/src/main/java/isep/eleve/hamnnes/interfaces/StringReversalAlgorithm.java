@@ -1,7 +1,7 @@
 package isep.eleve.hamnnes.interfaces;
 
-public interface StringReversalAlgorithm {
+public interface StringReversalAlgorithm<T> {
 
-    String reverse(String s);
+    T reverse(String s);
     
 }

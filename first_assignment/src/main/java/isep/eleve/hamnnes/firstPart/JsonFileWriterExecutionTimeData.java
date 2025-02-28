@@ -21,7 +21,15 @@ public class JsonFileWriterExecutionTimeData {
             
             jsonString.append("     \"Number\": " + executionTimeData[i][0] + ",\n");
             jsonString.append("     \"ExecutionTime\": " + executionTimeData[i][1] + ",\n");
-            jsonString.append("     \"FactorialResult\": " + executionTimeData[i][2] + "\n");
+
+            if(executionTimeData[i][2] instanceof String) {
+                jsonString.append("     \"Result\": " + "\"" + executionTimeData[i][2] + "\"" + "\n");
+
+            }
+            else {
+                jsonString.append("     \"Result\": " + executionTimeData[i][2] + "\n");
+            }
+            
             
             jsonString.append("    }");
 

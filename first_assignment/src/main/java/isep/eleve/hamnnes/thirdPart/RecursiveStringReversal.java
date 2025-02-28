@@ -2,7 +2,7 @@ package isep.eleve.hamnnes.thirdPart;
 
 import isep.eleve.hamnnes.interfaces.StringReversalAlgorithm;
 
-public class RecursiveStringReversal implements StringReversalAlgorithm {
+public class RecursiveStringReversal implements StringReversalAlgorithm<String> {
 
     String reversedString = "";
     

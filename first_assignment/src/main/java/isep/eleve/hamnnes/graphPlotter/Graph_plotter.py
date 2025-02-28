@@ -47,3 +47,13 @@ plotter = Graph_plotter(file_paths)
 
 plotter.read_json_data()
 plotter.create_graph()
+
+file_paths = [
+    r"X:\Onedrive\Dokumenter\Høgskolen i Østfold\4.Semster\II.2415 Advanced Algorithmic & Programming\Assignments\Assignment 1 v2\Output\IterativeStringReversalAlgorithmExecutionTimeData.json",
+    r"X:\Onedrive\Dokumenter\Høgskolen i Østfold\4.Semster\II.2415 Advanced Algorithmic & Programming\Assignments\Assignment 1 v2\Output\RecursiveStringReversalAlgorithmExecutionTimeData.json"
+]
+
+plotter = Graph_plotter(file_paths)
+
+plotter.read_json_data()
+plotter.create_graph()

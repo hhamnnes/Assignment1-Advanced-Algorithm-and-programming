@@ -1,52 +1,222 @@
 [
     {
      "Number": 0,
-     "ExecutionTime": 400,
-     "FactorialResult": 0
+     "ExecutionTime": 600,
+     "Result": 0
     },
     {
      "Number": 1,
      "ExecutionTime": 900,
-     "FactorialResult": 1
+     "Result": 1
     },
     {
      "Number": 2,
-     "ExecutionTime": 800,
-     "FactorialResult": 1
+     "ExecutionTime": 2000,
+     "Result": 1
     },
     {
      "Number": 3,
      "ExecutionTime": 1200,
-     "FactorialResult": 2
+     "Result": 2
     },
     {
      "Number": 4,
-     "ExecutionTime": 1200,
-     "FactorialResult": 3
+     "ExecutionTime": 10400,
+     "Result": 3
     },
     {
      "Number": 5,
-     "ExecutionTime": 1900,
-     "FactorialResult": 5
+     "ExecutionTime": 1600,
+     "Result": 5
     },
     {
      "Number": 6,
-     "ExecutionTime": 1700,
-     "FactorialResult": 8
+     "ExecutionTime": 2300,
+     "Result": 8
     },
     {
      "Number": 7,
-     "ExecutionTime": 2200,
-     "FactorialResult": 13
+     "ExecutionTime": 14400,
+     "Result": 13
     },
     {
      "Number": 8,
-     "ExecutionTime": 7500,
-     "FactorialResult": 21
+     "ExecutionTime": 8900,
+     "Result": 21
     },
     {
      "Number": 9,
-     "ExecutionTime": 6300,
-     "FactorialResult": 34
+     "ExecutionTime": 5900,
+     "Result": 34
+    },
+    {
+     "Number": 10,
+     "ExecutionTime": 36200,
+     "Result": 55
+    },
+    {
+     "Number": 11,
+     "ExecutionTime": 23600,
+     "Result": 89
+    },
+    {
+     "Number": 12,
+     "ExecutionTime": 35400,
+     "Result": 144
+    },
+    {
+     "Number": 13,
+     "ExecutionTime": 43100,
+     "Result": 233
+    },
+    {
+     "Number": 14,
+     "ExecutionTime": 26300,
+     "Result": 377
+    },
+    {
+     "Number": 15,
+     "ExecutionTime": 18000,
+     "Result": 610
+    },
+    {
+     "Number": 16,
+     "ExecutionTime": 22200,
+     "Result": 987
+    },
+    {
+     "Number": 17,
+     "ExecutionTime": 45700,
+     "Result": 1597
+    },
+    {
+     "Number": 18,
+     "ExecutionTime": 182600,
+     "Result": 2584
+    },
+    {
+     "Number": 19,
+     "ExecutionTime": 92100,
+     "Result": 4181
+    },
+    {
+     "Number": 20,
+     "ExecutionTime": 260300,
+     "Result": 6765
+    },
+    {
+     "Number": 21,
+     "ExecutionTime": 228200,
+     "Result": 10946
+    },
+    {
+     "Number": 22,
+     "ExecutionTime": 314100,
+     "Result": 17711
+    },
+    {
+     "Number": 23,
+     "ExecutionTime": 637800,
+     "Result": 28657
+    },
+    {
+     "Number": 24,
+     "ExecutionTime": 916700,
+     "Result": 46368
+    },
+    {
+     "Number": 25,
+     "ExecutionTime": 1714400,
+     "Result": 75025
+    },
+    {
+     "Number": 26,
+     "ExecutionTime": 1513700,
+     "Result": 121393
+    },
+    {
+     "Number": 27,
+     "ExecutionTime": 4249500,
+     "Result": 196418
+    },
+    {
+     "Number": 28,
+     "ExecutionTime": 4641800,
+     "Result": 317811
+    },
+    {
+     "Number": 29,
+     "ExecutionTime": 11732300,
+     "Result": 514229
+    },
+    {
+     "Number": 30,
+     "ExecutionTime": 4967400,
+     "Result": 832040
+    },
+    {
+     "Number": 31,
+     "ExecutionTime": 3428700,
+     "Result": 1346269
+    },
+    {
+     "Number": 32,
+     "ExecutionTime": 8500200,
+     "Result": 2178309
+    },
+    {
+     "Number": 33,
+     "ExecutionTime": 11488800,
+     "Result": 3524578
+    },
+    {
+     "Number": 34,
+     "ExecutionTime": 14741400,
+     "Result": 5702887
+    },
+    {
+     "Number": 35,
+     "ExecutionTime": 21187000,
+     "Result": 9227465
+    },
+    {
+     "Number": 36,
+     "ExecutionTime": 30542200,
+     "Result": 14930352
+    },
+    {
+     "Number": 37,
+     "ExecutionTime": 50966200,
+     "Result": 24157817
+    },
+    {
+     "Number": 38,
+     "ExecutionTime": 77991000,
+     "Result": 39088169
+    },
+    {
+     "Number": 39,
+     "ExecutionTime": 133393700,
+     "Result": 63245986
+    },
+    {
+     "Number": 40,
+     "ExecutionTime": 221245900,
+     "Result": 102334155
+    },
+    {
+     "Number": 41,
+     "ExecutionTime": 353049700,
+     "Result": 165580141
+    },
+    {
+     "Number": 42,
+     "ExecutionTime": 555566900,
+     "Result": 267914296
+    },
+    {
+     "Number": 43,
+     "ExecutionTime": 937466900,
+     "Result": 433494437
     }
 ]

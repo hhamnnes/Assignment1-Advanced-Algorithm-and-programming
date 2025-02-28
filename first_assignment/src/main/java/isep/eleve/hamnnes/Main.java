@@ -5,9 +5,10 @@ import isep.eleve.hamnnes.firstPart.FactorialRecursiveAlgorithm;
 import isep.eleve.hamnnes.firstPart.FactorialIterativeAlgorithm;
 import isep.eleve.hamnnes.firstPart.JsonFileWriterExecutionTimeData;
 import isep.eleve.hamnnes.secondPart.RecursiveFib;
+import isep.eleve.hamnnes.secondPart.IterativeFib;
+import isep.eleve.hamnnes.thirdPart.ExecutionTimeAnalyzerForStringReversal;
 import isep.eleve.hamnnes.thirdPart.IterativeStringReversal;
 import isep.eleve.hamnnes.thirdPart.RecursiveStringReversal;
-import isep.eleve.hamnnes.secondPart.IterativeFib;
 import isep.eleve.hamnnes.secondPart.ExecutionTimeAnalyzerForFibonacciAlgorithm;
 public class Main {
     public static void main(String[] args) {
@@ -16,7 +17,7 @@ public class Main {
         Object[][] executionTimes;
 
 
-        //Measuring execution time for part two:
+        //Measuring execution time for part one:
         ExecutionTimeAnalyzerForFactorialAlgorithm executionTimeAnalyzerForFactorialAlgorithm 
         = new ExecutionTimeAnalyzerForFactorialAlgorithm();
 
@@ -33,22 +34,32 @@ public class Main {
         ExecutionTimeAnalyzerForFibonacciAlgorithm executionTimeAnalyzerForFibonacciAlgorithm 
         = new ExecutionTimeAnalyzerForFibonacciAlgorithm();
 
-        executionTimes = executionTimeAnalyzerForFibonacciAlgorithm.measureExecutionTime(0, 10, 1,
+        executionTimes = executionTimeAnalyzerForFibonacciAlgorithm.measureExecutionTime(0, 45, 1,
                                                                                          new RecursiveFib());
-        JsonFileWriterExecutionTimeData.writeToFile(executionTimes, "RecursiveFibonacciAlgorithmExecutionTimeData.json");                                                                                 
-
-        executionTimes = executionTimeAnalyzerForFibonacciAlgorithm.measureExecutionTime(0, 10, 1,
+        JsonFileWriterExecutionTimeData.writeToFile(executionTimes, "RecursiveFibonacciAlgorithmExecutionTimeData.json"); 
+        
+        executionTimes = executionTimeAnalyzerForFibonacciAlgorithm.measureExecutionTime(0, 45, 1,
                                                                                          new IterativeFib());
+        JsonFileWriterExecutionTimeData.writeToFile(executionTimes, "IterativeFibonacciAlgorithmExecutionTimeData.json"); 
 
-        JsonFileWriterExecutionTimeData.writeToFile(executionTimes, "IterativeFibonacciAlgorithmExecutionTimeData.json");  
+          
 
-        RecursiveStringReversal recursiveStringReversal = new RecursiveStringReversal();
+        
 
-        System.out.println(recursiveStringReversal.reverse("sonde"));
+        //Measuring execution time for part three:
 
-        IterativeStringReversal iterativeStringReversal = new IterativeStringReversal();
 
-        System.out.println(iterativeStringReversal.reverse("sonde"));
+        ExecutionTimeAnalyzerForStringReversal executionTimeAnalyzerForStringReversal
+        = new ExecutionTimeAnalyzerForStringReversal();
+
+        executionTimes = executionTimeAnalyzerForStringReversal.measureExecutionTime(0, 1000, 100, 
+                                                                                    new RecursiveStringReversal());
+
+        JsonFileWriterExecutionTimeData.writeToFile(executionTimes, "RecursiveStringReversalAlgorithmExecutionTimeData.json");                                                                            
+
+        executionTimes = executionTimeAnalyzerForStringReversal.measureExecutionTime(0, 1000, 100, 
+                                                                                    new IterativeStringReversal());    
+        JsonFileWriterExecutionTimeData.writeToFile(executionTimes, "IterativeStringReversalAlgorithmExecutionTimeData.json");                                                                        
         
 
 

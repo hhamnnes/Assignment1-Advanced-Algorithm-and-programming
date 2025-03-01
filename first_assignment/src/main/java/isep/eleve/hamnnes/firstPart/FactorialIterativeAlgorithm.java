@@ -38,15 +38,9 @@ public class FactorialIterativeAlgorithm implements FactorialAlgorithm{
             }
             
 
-            System.out.print("A:" + A);
-            System.out.print("B:" + B);
-
         }
 
 
-
-        System.out.println();
-        System.out.println(factorialResult);
 
         return factorialResult;
     }

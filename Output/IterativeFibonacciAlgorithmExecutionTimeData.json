@@ -6,32 +6,32 @@
     },
     {
      "Number": 1,
-     "ExecutionTime": 500,
+     "ExecutionTime": 800,
      "Result": 1
     },
     {
      "Number": 2,
-     "ExecutionTime": 1100,
+     "ExecutionTime": 1300,
      "Result": 1
     },
     {
      "Number": 3,
-     "ExecutionTime": 1000,
+     "ExecutionTime": 1400,
      "Result": 2
     },
     {
      "Number": 4,
-     "ExecutionTime": 1200,
+     "ExecutionTime": 1300,
      "Result": 3
     },
     {
      "Number": 5,
-     "ExecutionTime": 1400,
+     "ExecutionTime": 1500,
      "Result": 5
     },
     {
      "Number": 6,
-     "ExecutionTime": 1100,
+     "ExecutionTime": 1700,
      "Result": 8
     },
     {
@@ -41,12 +41,12 @@
     },
     {
      "Number": 8,
-     "ExecutionTime": 1500,
+     "ExecutionTime": 10500,
      "Result": 21
     },
     {
      "Number": 9,
-     "ExecutionTime": 1900,
+     "ExecutionTime": 13200,
      "Result": 34
     },
     {
@@ -56,12 +56,12 @@
     },
     {
      "Number": 11,
-     "ExecutionTime": 1900,
+     "ExecutionTime": 1800,
      "Result": 89
     },
     {
      "Number": 12,
-     "ExecutionTime": 1900,
+     "ExecutionTime": 2100,
      "Result": 144
     },
     {
@@ -81,47 +81,47 @@
     },
     {
      "Number": 16,
-     "ExecutionTime": 2200,
+     "ExecutionTime": 14000,
      "Result": 987
     },
     {
      "Number": 17,
-     "ExecutionTime": 2200,
+     "ExecutionTime": 2500,
      "Result": 1597
     },
     {
      "Number": 18,
-     "ExecutionTime": 2400,
+     "ExecutionTime": 2300,
      "Result": 2584
     },
     {
      "Number": 19,
-     "ExecutionTime": 2600,
+     "ExecutionTime": 2400,
      "Result": 4181
     },
     {
      "Number": 20,
-     "ExecutionTime": 2500,
+     "ExecutionTime": 2400,
      "Result": 6765
     },
     {
      "Number": 21,
-     "ExecutionTime": 2600,
+     "ExecutionTime": 2400,
      "Result": 10946
     },
     {
      "Number": 22,
-     "ExecutionTime": 2600,
+     "ExecutionTime": 2800,
      "Result": 17711
     },
     {
      "Number": 23,
-     "ExecutionTime": 2800,
+     "ExecutionTime": 2500,
      "Result": 28657
     },
     {
      "Number": 24,
-     "ExecutionTime": 2700,
+     "ExecutionTime": 2800,
      "Result": 46368
     },
     {
@@ -131,7 +131,7 @@
     },
     {
      "Number": 26,
-     "ExecutionTime": 3000,
+     "ExecutionTime": 3100,
      "Result": 121393
     },
     {
@@ -151,32 +151,32 @@
     },
     {
      "Number": 30,
-     "ExecutionTime": 3700,
+     "ExecutionTime": 3100,
      "Result": 832040
     },
     {
      "Number": 31,
-     "ExecutionTime": 3000,
+     "ExecutionTime": 3200,
      "Result": 1346269
     },
     {
      "Number": 32,
-     "ExecutionTime": 11100,
+     "ExecutionTime": 11400,
      "Result": 2178309
     },
     {
      "Number": 33,
-     "ExecutionTime": 14700,
+     "ExecutionTime": 3100,
      "Result": 3524578
     },
     {
      "Number": 34,
-     "ExecutionTime": 3400,
+     "ExecutionTime": 3300,
      "Result": 5702887
     },
     {
      "Number": 35,
-     "ExecutionTime": 3300,
+     "ExecutionTime": 3100,
      "Result": 9227465
     },
     {
@@ -186,37 +186,37 @@
     },
     {
      "Number": 37,
-     "ExecutionTime": 3900,
+     "ExecutionTime": 3500,
      "Result": 24157817
     },
     {
      "Number": 38,
-     "ExecutionTime": 3500,
+     "ExecutionTime": 3900,
      "Result": 39088169
     },
     {
      "Number": 39,
-     "ExecutionTime": 3500,
+     "ExecutionTime": 11700,
      "Result": 63245986
     },
     {
      "Number": 40,
-     "ExecutionTime": 3100,
+     "ExecutionTime": 3800,
      "Result": 102334155
     },
     {
      "Number": 41,
-     "ExecutionTime": 3100,
+     "ExecutionTime": 4100,
      "Result": 165580141
     },
     {
      "Number": 42,
-     "ExecutionTime": 3700,
+     "ExecutionTime": 14200,
      "Result": 267914296
     },
     {
      "Number": 43,
-     "ExecutionTime": 15300,
+     "ExecutionTime": 14900,
      "Result": 433494437
     }
 ]
